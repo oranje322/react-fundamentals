@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    border: 1px solid darkred;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.username {
+    font-weight: 700;
+    margin-right: 20px;
+}
