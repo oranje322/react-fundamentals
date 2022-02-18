@@ -1,0 +1,52 @@
+.coursesCard {
+    border: 1px solid green;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-overflow: ellipsis;
+}
+
+.cardTitle {
+    margin: 0;
+}
+
+.cardLeftSection {
+    width: 65%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.description {
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -ms-line-clamp: 4;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    display: -webkit-box;
+    display: flex;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.cardRightSection {
+    width: 35%;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.info {
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.infoSubtitle {
+    font-weight: 600;
+    margin-right: 8px;
+}

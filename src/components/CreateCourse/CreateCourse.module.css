@@ -1,0 +1,55 @@
+.createCourse {
+    border: 1px solid cornflowerblue;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.description {
+    width: 100%;
+}
+
+.infoBlock {
+    display: flex;
+
+    border: 1px solid saddlebrown;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.leftSection {
+    margin-right: 40px;
+    width: 50%
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    margin: 10px 0;
+}
+
+.authorBlock {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.author {
+    margin-right: 70px;
+    width: 130px;
+}
+
+.rightSection {
+    width: 50%;
+}

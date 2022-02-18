@@ -1,0 +1,10 @@
+.courses {
+    border: 1px solid cornflowerblue;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
